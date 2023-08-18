@@ -1,10 +1,10 @@
-import { MyComponent } from "./MyComponent";
-import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import MortgageCalculator from "./MortgageCalculator";
 
 function App() {
     return (
         <div className="App">
-            <MyComponent />
+            <MortgageCalculator />
         </div>
     );
 }
